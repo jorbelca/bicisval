@@ -1,0 +1,131 @@
+<!-- Autor=Jordi Belda Calabuig 2 DAW SEMI -->
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta name="keywords" content="bicicletas, reparacion bicicletas" />
+    <meta name="description" content="Web de venta de bicicletas" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jordi Belda Calabuig" />
+    <link rel="stylesheet" href="../CSS/estructura.css" />
+    <link rel="stylesheet" href="../CSS/taller.css" />
+    <link rel="icon" href="../images/logo/logo.ico" type="image/x-icon" />
+    <title>BicisVal - Taller</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="logo">
+          <img src="../images/logo/logo.png" alt="logo_bicisval" />
+          <h1>Bicis<span class="titulo-contraste">Val </span></h1>
+        </div></a
+      >
+      <nav id="navegacion">
+        <ul>
+          <li class="inicioLink"><a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+          <li><a href="venta.html">Ventas</a></li>
+          <li><a href="alquiler.html">Alquiler</a></li>
+        </ul>
+      </nav>
+      <div class="custom-select">
+        <ul class="select-options">
+          <li class="active">🇪🇸</li>
+          <!-- Bandera de España -->
+          <li>
+            <img
+              src="../images/banderas/flag_esvc.png"
+              alt="bandera_valencia"
+              width="10"
+              height="5"
+            />
+          </li>
+          <!-- Bandera de Valencia -->
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="taller">
+        <h2>Taller</h2>
+        <p>
+          En esta sección encontrarás información sobre las posibles
+          reparaciones.
+        </p>
+
+        <section>
+          <h2>Listado de Precios - Taller</h2>
+
+          <table>
+            <tr>
+              <th>Servicio</th>
+              <th>Precio</th>
+            </tr>
+            <tr>
+              <td>Ajuste de cambios</td>
+              <td>15€</td>
+            </tr>
+            <tr>
+              <td>Ajuste de frenos</td>
+              <td>10€</td>
+            </tr>
+            <tr>
+              <td>Cambio de cadena</td>
+              <td>20€</td>
+            </tr>
+            <tr>
+              <td>Alineación de ruedas</td>
+              <td>25€</td>
+            </tr>
+            <tr>
+              <td>Revisión completa</td>
+              <td>50€</td>
+            </tr>
+          </table>
+        </section>
+
+        <section>
+          <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+            <label for="mail">Mail</label>
+            <input type="email" name="mail" id="mail" placeholder="Email" />
+            <label for="consulta">Consulta</label>
+            <textarea
+              id="consulta"
+              name="consulta"
+              rows="5"
+              cols="15"
+              placeholder="Añade tu consulta aqui, no olvides añadir el modelo de la bici"
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contacto">
+        <h4>Contacto</h4>
+        <address>c\ Calle,1 Ontinyent(Valencia)</address>
+        <p><i class="fa-solid fa-phone"></i> <a href="tel:+34">111222333</a></p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:tienda@tienda.com">tienda@tienda.com</a>
+        </p>
+      </div>
+      <div id="social">
+        <h4>Síguenos en redes</h4>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+      <div id="pagos">
+        <h4>Métodos de Pago</h4>
+
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+      </div>
+      <p id="copy">&copy;2024, Jordi Belda</p>
+    </footer>
+
+    <script src="../JS/index.js"></script>
+  </body>
+</html>

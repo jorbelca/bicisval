@@ -1,0 +1,135 @@
+<!-- Autor=Jordi Belda Calabuig 2 DAW SEMI -->
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta name="keywords" content="bicicletas, alquiler bicicletas" />
+    <meta name="description" content="Web de alquiler de bicicletas" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jordi Belda Calabuig" />
+    <link rel="stylesheet" href="../CSS/estructura.css" />
+    <link rel="stylesheet" href="../CSS/alquiler.css" />
+    <link rel="icon" href="../images/logo/logo.ico" type="image/x-icon" />
+    <title>BicisVal - Alquiler</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="logo">
+          <img src="../images/logo/logo.png" alt="logo_bicisval" />
+          <h1>Bicis<span class="titulo-contraste">Val </span></h1>
+        </div></a
+      >
+      <nav id="navegacion">
+        <ul>
+          <li class="inicioLink">
+            <a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+          </li>
+          <li><a href="venta.html">Ventas</a></li>
+          <li><a href="taller.html">Taller</a></li>
+        </ul>
+      </nav>
+      <div class="custom-select">
+        <ul class="select-options">
+          <li class="active">🇪🇸</li>
+          <!-- Bandera de España -->
+          <li>
+            <img
+              src="../images/banderas/flag_esvc.png"
+              alt="bandera_valencia"
+              width="10"
+              height="5"
+            />
+          </li>
+          <!-- Bandera de Valencia -->
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h2>Alquiler</h2>
+      <p>En esta sección encontrarás todas las opciones de alquiler.</p>
+
+      <section class="alquiler">
+        <h3 class="alquiler_title">Opciones de Alquiler</h3>
+
+        <div class="alquiler_cards">
+          <div class="alquiler_card">
+            <ul>
+              <div class="alquiler_card_title">
+                <li>Bicicleta de paseo</li>
+              </div>
+              <div class="alquiler_card_body">
+                <li>Cómoda y ligera</li>
+                <li>Ideal para la ciudad</li>
+                <li>5€ / hora</li>
+                <li>20€ / día</li>
+              </div>
+              <div class="alquiler_card_btn">
+                <li><a href="#">Reservar</a></li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="alquiler_card">
+            <ul>
+              <div class="alquiler_card_title">
+                <li>Bicicleta de montaña</li>
+              </div>
+              <div class="alquiler_card_body">
+                <li>Resistente</li>
+                <li>Perfecta para rutas fuera del asfalto</li>
+                <li>8€ / hora</li>
+                <li>30€ / día</li>
+              </div>
+              <div class="alquiler_card_btn">
+                <li><a href="#">Reservar</a></li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="alquiler_card">
+            <ul>
+              <div class="alquiler_card_title">
+                <li>Bicicleta eléctrica</li>
+              </div>
+              <div class="alquiler_card_body">
+                <li>Asistencia al pedaleo</li>
+                <li>Facilita el recorrido</li>
+                <li>10€ / hora</li>
+                <li>50€ / día</li>
+              </div>
+              <div class="alquiler_card_btn">
+                <li><a href="#">Reservar</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="contacto">
+        <h4>Contacto</h4>
+        <address>c\ Calle,1 Ontinyent(Valencia)</address>
+        <p><i class="fa-solid fa-phone"></i> <a href="tel:+34">111222333</a></p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:tienda@tienda.com">tienda@tienda.com</a>
+        </p>
+      </div>
+      <div id="social">
+        <h4>Síguenos en redes</h4>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+      <div id="pagos">
+        <h4>Métodos de Pago</h4>
+
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+      </div>
+      <p id="copy">&copy;2024, Jordi Belda</p>
+    </footer>
+
+    <script src="../JS/index.js"></script>
+  </body>
+</html>

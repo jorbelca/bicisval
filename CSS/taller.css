@@ -1,0 +1,141 @@
+#navegacion a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Teko", sans-serif;
+}
+
+#navegacion li a:hover {
+  background-color: var(--color-principal);
+  color: var(--color-contraste);
+  animation-duration: 1000ms;
+}
+
+#navegacion ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  justify-self: center;
+}
+#navegacion ul a {
+  text-decoration: none;
+}
+.logo {
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  color: var(--color-principal);
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+main p {
+  margin-bottom: 20px;
+}
+
+.taller {
+  padding: 0px 20px;
+  padding-bottom: 6rem;
+}
+section {
+  padding-top: 20px;
+  font-family: "Manrope", sans-serif;
+}
+
+section h2 {
+  color: var(--color-principal);
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table tr:nth-child(even) {
+  background-color: #e8e1bc;
+}
+
+th {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+tr:hover {
+  background-color: #868552d0 !important;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+label {
+  margin-top: 10px;
+  color: var(--color-principal);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: var(--color-principal);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #a51a1a;
+}
+
+input,
+textarea {
+  transition: border 0.2s ease-in;
+}
+input:focus,
+textarea:focus {
+  outline: 2px solid #a51a1a;
+  border: 2px transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}

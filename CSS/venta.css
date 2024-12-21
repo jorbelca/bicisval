@@ -1,0 +1,126 @@
+#navegacion a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Teko", sans-serif;
+}
+
+#navegacion li a:hover {
+  background-color: var(--color-principal);
+  color: var(--color-contraste);
+  animation-duration: 1000ms;
+}
+
+#navegacion ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  justify-self: center;
+}
+#navegacion ul a {
+  text-decoration: none;
+}
+.logo {
+  justify-content: center;
+}
+.logo h1 {
+  font-family: "Teko", sans-serif;
+}
+main {
+  padding: 0px 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+main a {
+  color: var(--color-principal);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+main h2 {
+  color: var(--color-principal);
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.products article {
+  background-color: var(--color-contraste);
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.fa-heart {
+  align-self: flex-end;
+}
+.products article:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.products article img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.bicicleta_descripcion_detalles {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.bicicleta_descripcion_detalles :last-child {
+  font-weight: bold;
+}
+.bicicleta_descripcion button {
+  background-color: var(--color-principal);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: -45px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+}
+.marca {
+  font-weight: 600;
+}
+.modelo {
+  font-weight: 100;
+}
+.precio {
+  color: red;
+}
+
+.bicicleta_descripcion button:hover {
+  background-color: darkred;
+}
+
+.like {
+  color: #000; 
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.like.liked {
+  color: red; 
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; 
+}

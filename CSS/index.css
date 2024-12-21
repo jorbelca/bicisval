@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Manrope:wght@200..800&family=Teko:wght@300..700&display=swap");
+
+#navegacion a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Teko", sans-serif;
+}
+
+#navegacion li a:hover {
+  background-color: var(--color-principal);
+  color: var(--color-contraste);
+  animation-duration: 1000ms;
+}
+
+#navegacion ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  justify-self: center
+}
+#navegacion ul a {
+  text-decoration: none;
+}
+#texto_descripcion {
+  padding: 20px 60px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#descripcion {
+  margin: 0;
+  padding-top: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#descripcion h2 {
+  color: var(--color-principal);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.9px;
+}
+
+#descripcion p {
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+  position: relative;
+  padding: 20px 0;
+  font-family: "Manrope", sans-serif;
+}
+#descripcion img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+.logo {
+  justify-content: center;
+}
